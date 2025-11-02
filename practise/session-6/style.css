@@ -1,0 +1,66 @@
+.alert {
+    padding: 16px;
+    margin-bottom: 16px;
+    font-size: 14px;
+    border-radius: 8px;
+}
+
+.alert:hover {
+    font-size: 18px;
+    padding: 20px;
+}
+
+.info {
+    background-color: #eff0ff;
+    color: #1c49af;
+}
+
+.danger {
+    background-color: #fef2f2;
+    color: #991b1b;
+}
+
+.success {
+    background-color: #ecfdf5;
+    color: #065f46;
+}
+
+.warning {
+    background-color: #fffbeb;
+    color: #92400e;
+}
+
+.dark {
+    background-color: #f9fafb;
+    color: #1f2937;
+}
+
+
+.message {
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.badge {
+    padding: 8px;
+    font-size: 16px;
+    margin: 4px;
+    border-radius: 8px;
+}
+
+.badge-info {
+    background-color: #bfdbfe;
+    color: #1e3a8a;
+}
+
+.c1 {
+    color: red;
+}
+
+.c2 {
+    color: blue
+}
+
+.c1.c2 {
+    color: darkgreen;
+}

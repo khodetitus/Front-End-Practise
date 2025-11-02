@@ -1,0 +1,22 @@
+body {
+    background-color: black;
+}
+
+
+.container div {
+    width: 100px;
+    height: 100px;
+    background-color: #F87B1B;
+}
+
+.container div:nth-child(odd) {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.container div:nth-child(even) {
+    position: absolute;
+    right: 0;
+    top: 0;
+}

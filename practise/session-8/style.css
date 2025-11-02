@@ -1,0 +1,40 @@
+body {
+    padding: 16px;
+}
+
+.card {
+    background-color: white;
+    display: block;
+    border: 1px solid #e5e7eb;
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.1) 0px 1px 2px -1px;
+    text-decoration: none;
+    overflow: hidden;
+    position: relative;
+}
+
+.card img {
+    width: 192px;
+}
+
+.card div h5 {
+    color: #111827;
+    font-weight: 700;
+    font-size: 1.5rem;
+    margin: 0 0 8px 0;
+}
+
+.card div p {
+    color: #374151;
+    font-size: 14px;
+    margin: 0 0 12px 0;
+}
+
+.card div {
+    padding: 16px;
+    position: absolute;
+    left: 298px;
+    top: 0;
+    
+
+}

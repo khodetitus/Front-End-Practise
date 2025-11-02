@@ -1,0 +1,69 @@
+body {
+    background-color: #B7E5CD;
+    font-family: "Inter", sans-serif;
+}
+
+header {
+    background-color: #C1785A;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 80px;
+    overflow: hidden;
+}
+
+header nav {
+    height: 100%;
+}
+
+header a {
+    text-decoration: none;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav div {
+    padding: 16px;
+    height: 100px;
+    box-sizing: border-box;
+}
+
+header nav div .brand {
+    display: block;
+}
+
+header nav div .brand span {
+    font-weight: 600;
+    font-size: 1.5rem;
+    color: #305669;
+}
+
+
+header nav ul li a {
+    font-weight: 500;
+    color: #111827;
+}
+
+header nav .menu {
+    position: absolute;
+    right: 0;
+}
+
+h1 {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 3rem;
+}
+
+p {
+    font-size: 14px;
+    line-height: 2rem;
+}
+
+main {
+    margin-top: 92px;
+}
