@@ -27,7 +27,7 @@ header nav ul {
 }
 
 header nav div {
-    padding: 16px;
+    padding: 0 16px 16px 16px;
     height: 100px;
     box-sizing: border-box;
 }
