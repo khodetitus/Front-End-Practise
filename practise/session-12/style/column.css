@@ -1,0 +1,27 @@
+.col {
+    float: left;
+    /*padding-left: 8px;*/
+    /*padding-right: 8px;*/
+    /*box-sizing: border-box;*/
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+.col:first-child {
+    /*padding-left: 0;*/
+    margin-left: 0;
+}
+
+.col:last-child {
+    /*padding-right: 0;*/
+    margin-right: 0;
+}
+
+.col-1 {
+    /*width: 8.33%;*/
+    width: calc(8.33% - 16px);
+}
+
+.col-1:first-child, .col-1:last-child {
+    width: calc(8.33% - 8px);
+}
